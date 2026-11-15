@@ -1,0 +1,14 @@
+[
+  { "id": 1, "productId": 1, "type": "IN", "quantity": 60, "date": "2026-11-02", "reason": "", "note": "Weekly delivery", "user": "staff" },
+  { "id": 2, "productId": 1, "type": "OUT", "quantity": 12, "date": "2026-11-08", "reason": "Sale", "note": "", "user": "staff" },
+  { "id": 3, "productId": 2, "type": "IN", "quantity": 30, "date": "2026-11-02", "reason": "", "note": "", "user": "staff" },
+  { "id": 4, "productId": 2, "type": "OUT", "quantity": 21, "date": "2026-11-09", "reason": "Sale", "note": "", "user": "staff" },
+  { "id": 5, "productId": 3, "type": "IN", "quantity": 40, "date": "2026-11-03", "reason": "", "note": "", "user": "staff" },
+  { "id": 6, "productId": 3, "type": "OUT", "quantity": 4, "date": "2026-11-10", "reason": "Sale", "note": "", "user": "staff" },
+  { "id": 7, "productId": 4, "type": "IN", "quantity": 20, "date": "2026-11-03", "reason": "", "note": "", "user": "staff" },
+  { "id": 8, "productId": 4, "type": "OUT", "quantity": 16, "date": "2026-11-11", "reason": "Sale", "note": "", "user": "staff" },
+  { "id": 9, "productId": 5, "type": "IN", "quantity": 30, "date": "2026-11-04", "reason": "", "note": "", "user": "staff" },
+  { "id": 10, "productId": 5, "type": "OUT", "quantity": 30, "date": "2026-11-12", "reason": "Sale", "note": "Sold out", "user": "staff" },
+  { "id": 11, "productId": 8, "type": "OUT", "quantity": 2, "date": "2026-11-12", "reason": "Expired", "note": "Past date", "user": "staff" },
+  { "id": 12, "productId": 7, "type": "OUT", "quantity": 1, "date": "2026-11-13", "reason": "Damaged", "note": "Leaking bottle", "user": "staff" }
+]

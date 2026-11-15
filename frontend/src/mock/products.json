@@ -1,0 +1,14 @@
+[
+  { "id": 1, "code": "P001", "name": "Coca-Cola 330ml", "category": "Drinks", "quantity": 48, "minimumLevel": 12, "image": "/image/coca-cola.jpg"},
+  { "id": 2, "code": "P002", "name": "Mineral Water 1.5L", "category": "Drinks", "quantity": 9, "minimumLevel": 12, "image": "/image/water.jpg"},
+  { "id": 3, "code": "P003", "name": "Potato Chips 60g", "category": "Snacks", "quantity": 36, "minimumLevel": 10 , "image": "/image/potato-chips.jpg"},
+  { "id": 4, "code": "P004", "name": "Chocolate Wafer", "category": "Snacks", "quantity": 4, "minimumLevel": 10, "image": "/image/Chocolte Wafer.jpg"},
+  { "id": 5, "code": "P005", "name": "Instant Noodles", "category": "Snacks", "quantity": 0, "minimumLevel": 15 , "image": "/image/Indo-Noodle.jpg"},
+  { "id": 6, "code": "P006", "name": "Tissue Box", "category": "Household", "quantity": 22, "minimumLevel": 6 , "image": "/image/Tissue-Box.jpg"},
+  { "id": 7, "code": "P007", "name": "Dish Soap 500ml", "category": "Household", "quantity": 3, "minimumLevel": 4 , "image": "/image/Dish-Soap.jpg"},
+  { "id": 8, "code": "P008", "name": "Orange Juice 1L", "category": "Drinks", "quantity": 6, "minimumLevel": 8, "image": "/image/Orange-Juice.jpg" },
+  { "id": 9, "code": "P009", "name": "Biscuit Pack", "category": "Snacks", "quantity": 25, "minimumLevel": 10, "image": "/image/Biscuit-Pack(Oreo).jpg" },
+  { "id": 10, "code": "P010", "name": "Green Tea 500ml", "category": "Drinks", "quantity": 40, "minimumLevel": 15, "image": "/image/GreenTea.jpg" },
+  { "id": 11, "code": "P011", "name": "Laundry Detergent 1kg", "category": "Household", "quantity": 14, "minimumLevel": 5, "image": "/image/Laundry-Detergent.jpg" },
+  { "id": 12, "code": "P012", "name": "Peanuts 100g", "category": "Snacks", "quantity": 18, "minimumLevel": 8, "image": "/image/Peanuts.jpg" }
+]
