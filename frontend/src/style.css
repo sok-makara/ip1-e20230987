@@ -92,3 +92,8 @@ tr:last-child td { border-bottom: none; }
 .ok { color: #1b7f3a; font-size: 14px; margin: 0; }
 .input.invalid { border-color: #b42318; }
 .back { align-self: flex-start; color: var(--primary); text-decoration: none; font-weight: 600; }
+
+.product-cell { display: flex; align-items: center; gap: 12px; }
+.thumb { width: 40px; height: 40px; border-radius: 8px; object-fit: cover; background: var(--bg); }
+.thumb-empty { display: inline-flex; align-items: center; justify-content: center; color: var(--mu); font-weight: 600; }
+.thumb-lg { width: 160px; height: 160px; border-radius: 12px; object-fit: cover; }

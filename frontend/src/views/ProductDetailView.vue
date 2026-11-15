@@ -45,6 +45,7 @@ watch(id, loadHistory)
       <div class="page-head">
         <div>
           <h1>{{ product.name }}</h1>
+          <img v-if="product.image" class="thumb-lg" :src="product.image" :alt="product.name" />
           <p class="sub">{{ product.code }} - {{ product.category }}</p>
         </div>
         <span class="pill" :class="stockStatus(product.quantity, product.minimumLevel).cls">

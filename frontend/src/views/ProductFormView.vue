@@ -16,6 +16,7 @@ const code = ref('')
 const name = ref('')
 const category = ref<Category | ''>('')
 const minimum = ref('')
+const image = ref('')
 const errors = reactive({ code: '', name: '', category: '', minimum: '', form: '' })
 const saving = ref(false)
 const notFound = computed(() => editId !== null && store.loaded && !store.getById(editId))
@@ -28,6 +29,7 @@ onMounted(async () => {
     name.value = p.name
     category.value = p.category
     minimum.value = String(p.minimumLevel)
+    image.value = p.image ?? ''
   }
 })
 
@@ -46,6 +48,7 @@ async function save() {
     name: name.value,
     category: category.value as Category,
     minimumLevel: Number(minimum.value),
+    image: image.value,
   }
   saving.value = true
   try {
@@ -88,6 +91,11 @@ async function save() {
       <label for="minimum">Minimum stock level</label>
       <input id="minimum" v-model="minimum" class="input" :class="{ invalid: errors.minimum }" type="number" />
       <p v-if="errors.minimum" class="err">{{ errors.minimum }}</p>
+    </div>
+    <div class="field">
+      <label for="image">Image path (optional)</label>
+      <input id="image" v-model="image" class="input" type="text" placeholder="/images/coca-cola.jpg" />
+      <img v-if="image" class="thumb-lg" :src="image" :alt="name || 'Product image'" />
     </div>
     <p v-if="editId === null" class="sub">New products start with 0 stock. Use Stock In to add stock.</p>
     <p v-if="errors.form" class="err" role="alert">{{ errors.form }}</p>

@@ -83,7 +83,13 @@ async function remove(p: Product) {
         <tbody>
           <tr v-for="p in pageItems" :key="p.id">
             <td>{{ p.code }}</td>
-            <td>{{ p.name }}</td>
+            <td>
+              <div class="product-cell">
+                <img v-if="p.image" class="thumb" :src="p.image" :alt="p.name" />
+                <span v-else class="thumb thumb-empty">{{ p.name[0] }}</span>
+                {{ p.name }}
+              </div>
+            </td>
             <td>{{ p.category }}</td>
             <td>{{ p.quantity }}</td>
             <td>{{ p.minimumLevel }}</td>
